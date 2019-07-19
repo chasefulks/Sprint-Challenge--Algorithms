@@ -13,7 +13,7 @@ a)	The run time of the following code snippet is Linear O(n):
 ```
 
  ```
-b)	The run time of the following code snippet is Exponential O(2^n):
+b)	The run time of the following code snippet is Exponential O(n^3):
  	sum = 0
 	    for i in range(n):
 	      i += 1
@@ -28,12 +28,12 @@ b)	The run time of the following code snippet is Exponential O(2^n):
 ```
 
  ```
-c)	The run time of the following code snippet is Quadratic O(n^2):
+c)	The run time of the following code snippet is linear O(n):
  	def bunnyEars(bunnies):
       if bunnies == 0:
         return 0
        return 2 + bunnyEars(bunnies-1)
- It is quadratice because the differences have a constant difference and it is a recurssive function.
+ 
 ```
 
  ## Exercise II
